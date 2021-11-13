@@ -1,8 +1,8 @@
 {
   "name": "cakeskin-helper",
-  "title": "CakeSkin 社区支持",
+  "title": "CakeSkin::general.title",
   "version": "0.1.0",
-  "description": "对于 CakeSkin 的插件",
+  "description": "CakeSkin::general.description",
   "author": "XieXiLin",
   "url": "https://github.com/cake-mc/CakeSkin-Helper",
   "namespace": "CakeSkin",
@@ -10,9 +10,6 @@
     "blessing-skin-server": "^5.0.0 || ^6.0.0"
   },
   "enchants": {
-    "icon":"info-circle",
-    "providers": [
-      "Lang"
-    ]
+    "icon":"info-circle"
   }
 }
