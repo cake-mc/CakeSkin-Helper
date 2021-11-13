@@ -1,15 +1,18 @@
 {
-  "name": "",
-  "title": "",
+  "name": "cakeskin-helper",
+  "title": "CakeSkin 社区支持",
   "version": "0.1.0",
-  "description": "",
-  "author": "",
-  "url": "",
-  "namespace": "",
+  "description": "对于 CakeSkin 的插件",
+  "author": "XieXiLin",
+  "url": "https://github.com/cake-mc/CakeSkin-Helper",
+  "namespace": "CakeSkin",
   "require": {
-    "blessing-skin-server": "^5.0.0"
+    "blessing-skin-server": "^5.0.0 || ^6.0.0"
   },
   "enchants": {
-    "config": "Configuration"
+    "icon":"info-circle",
+    "providers": [
+      "CakeSkin\\Lang"
+    ]
   }
 }
