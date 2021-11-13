@@ -1,6 +1,6 @@
 <?php
 
-namespace XXX;
+namespace CakeSkin\Helper;
 
 class Configuration
 {
