@@ -9,8 +9,11 @@
   "require": {
     "blessing-skin-server": "^5.0.0 || ^6.0.0"
   },
-  "icon": {
-    "fa": "book",
-    "bg": "maroon"
+  "enchants":{
+    "config": "Configuration",
+    "icon": {
+      "fa": "book",
+      "bg": "maroon"
+    }
   }
 }

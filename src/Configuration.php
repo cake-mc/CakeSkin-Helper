@@ -6,6 +6,6 @@ class Configuration
 {
     public function render()
     {
-        return view('xxx::config');
+        return view('CakeSkin\\Helper::config');
     }
 }
