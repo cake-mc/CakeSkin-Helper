@@ -10,7 +10,7 @@
     "blessing-skin-server": "^5.0.0 || ^6.0.0"
   },
   "icon": {
-    "fa": "accessible-icon",
+    "fa": "address-card",
     "bg": "fuchsia"
   }
 }
