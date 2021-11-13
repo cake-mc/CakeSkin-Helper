@@ -10,7 +10,7 @@ return function ($plugin) {
     // 可以像下面这样获取前端资源 URL：
     // $plugin->assets('something.css');
 
-    Hook::addMenuItem('user', 0, [
+    Hook::addMenuItem('explore', 0, [
         'title' => 'CakeSkin\\Helper::menu.docs',
         'link'  => 'https://help.cakemc.top/',
         'icon'  => 'fa-book',
