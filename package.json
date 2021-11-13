@@ -1,15 +1,16 @@
 {
   "name": "cakeskin-helper",
-  "title": "CakeSkin::general.title",
+  "title": "CakeSkin\\Helper::general.title",
   "version": "0.1.0",
-  "description": "CakeSkin::general.description",
+  "description": "CakeSkin\\Helper::general.description",
   "author": "XieXiLin",
   "url": "https://github.com/cake-mc/CakeSkin-Helper",
-  "namespace": "CakeSkin",
+  "namespace": "CakeSkin\\Helper",
   "require": {
     "blessing-skin-server": "^5.0.0 || ^6.0.0"
   },
-  "enchants": {
-    "icon":"info-circle"
+  "icon": {
+    "fa": "accessible-icon",
+    "bg": "fuchsia"
   }
 }
