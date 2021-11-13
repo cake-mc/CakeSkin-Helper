@@ -22,7 +22,4 @@ return function ($plugin) {
         'icon'  => 'fa-yen-sign',
         'new-tab' => true, // 表示是否在浏览器新标签页中打开链接，默认为 false
     ]);
-    if($user = User::where('permission', '2')){
-        Hook::addUserBadge('超级管理员', 'yellow');
-    };
 };
