@@ -2,6 +2,7 @@
 
 use Blessing\Filter;
 use Illuminate\Contracts\Events\Dispatcher;
+use App\Services\Hook;
 
 return function (Dispatcher $events, Filter $filter) {
     //
