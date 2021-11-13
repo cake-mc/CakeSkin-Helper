@@ -12,7 +12,7 @@
   "enchants": {
     "icon":"info-circle",
     "providers": [
-      "CakeSkin\\Lang"
+      "Lang"
     ]
   }
 }
