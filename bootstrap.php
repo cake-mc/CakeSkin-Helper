@@ -17,7 +17,19 @@ return function ($plugin) {
         'icon'  => 'fa-donate',
         'new-tab' => true,
     ]);
-    Hook::addMenuItem('explore', 7, [
+    Hook::addMenuItem('explore', 2, [
+        'title' => 'CakeSkin\\Helper::menu.privacy',
+        'link'  => 'https://help.cakemc.top/cakeskin/policies/privacy.html',
+        'icon'  => 'fa-book',
+        'new-tab' => true,
+    ]);
+    Hook::addMenuItem('explore', 3, [
+        'title' => 'CakeSkin\\Helper::menu.tos',
+        'link'  => 'https://help.cakemc.top/cakeskin/policies/tos.html',
+        'icon'  => 'fa-book',
+        'new-tab' => true,
+    ]);
+    Hook::addMenuItem('explore', 4, [
         'title' => 'CakeSkin\\Helper::menu.mail',
         'link'  => 'mailto:bigcake@cakemc.top',
         'icon'  => 'fa-envelope-open-text',
